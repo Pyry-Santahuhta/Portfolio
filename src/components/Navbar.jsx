@@ -1,4 +1,6 @@
 import React from "react";
+import me from "../imgs/a.jpg";
+
 export default function Navbar() {
   return (
     <nav class="navbar">

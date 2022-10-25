@@ -6,9 +6,9 @@ import Home from "./components/Home";
 import NotFound from "./components/Notfound";
 function App() {
   return (
-    <div>
+    <div className="App">
       <Navbar />
-      <div className="App">
+      <div className="content">
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="*" element={<NotFound />}></Route>
